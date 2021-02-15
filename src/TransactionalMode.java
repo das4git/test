@@ -7,6 +7,8 @@ public class TransactionalMode implements Runnable, FileWriting {
         try {
             ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(
                     "tcp://localhost:61616/admin");
+//          ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(
+//                    "vm://localhost");
 
             Connection connection = connectionFactory.createConnection();
             connection.start();

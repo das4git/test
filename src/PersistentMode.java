@@ -8,7 +8,8 @@ public class PersistentMode implements Runnable, FileWriting {
 
             ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(
                     "tcp://localhost:61616/admin");
-
+//          ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(
+//                    "vm://localhost");
             Connection connection = connectionFactory.createConnection();
             connection.start();
             Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
