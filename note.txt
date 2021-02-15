@@ -1,0 +1,4 @@
+
+Sent message: Hello, World! from: PluginMode main:hashCode=394771492 time=00:41:41,390
+
+Received: Hello, World! from: PluginMode main:hashCode=394771492 time=00:41:41,410
