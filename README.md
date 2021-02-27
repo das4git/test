@@ -15,5 +15,4 @@ DupsOkAcknowledgeMode.java
 3 Транзакционный режим 
 TransactionalMode.java
 
-4 С примененимем плагина аутентификации 
-PluginMode.java
+* Для обмена сообщений по протоколу tcp нужно предварательно установить ActiveMQ и запустить через терминал.  
