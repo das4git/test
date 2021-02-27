@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
-
+.DS_Store
+*.DS_Store
+HELP.md
+mvnw
+mvnw.cmd
+target/
+activemq-data/
 # Log file
 *.log
 
@@ -25,4 +31,3 @@ hs_err_pid*
 \out
 \.idea
 *.iml
-
